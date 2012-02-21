@@ -44,6 +44,10 @@ For example add the following to the end of your ~/.bash_profile
 export PATH="$PATH:~/git/git-achievements"
 alias git="git-achievements"
 
+Note that if you are using zsh, add the following to still get completion for git:
+
+compdef git-achievements=git
+
 You can get your first achievement by running
 
     git achievements --help
